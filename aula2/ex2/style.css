@@ -1,0 +1,25 @@
+body{
+    
+    overflow-x: hidden;
+}
+.body{
+    width:100%;
+    background: pink;
+    align-self: auto;
+}
+p{
+    text-align: justify;
+    font-size: 1.5em; /*2*16px*/
+}
+section{
+    background-color: magenta;
+    width: 44.89%;/*Elemento/contexto*/
+    align-self: center;
+}
+
+/*Media query*/
+@media all and (max-width: 400px){
+    section{
+        width: 90%;
+    }
+}

@@ -1,0 +1,70 @@
+body{
+    background-color: palegoldenrod;
+}
+h1,p{
+    color:rebeccapurple;
+}
+
+.portifolio p{
+    text-transform: uppercase;
+}
+article > h1{
+    border: 1px dotted palevioletred;
+}
+article > p + h1{
+    border: 1px dotted 2px;
+}
+p ~ article{
+    text-align: center;
+}
+[disabled]{
+    color:magenta;
+}
+li[value="item3"]{
+    text-decoration: underline;
+}
+li:hover{
+    cursor:pointer;
+    color:purple;
+}
+a:visited{
+    color:gold;
+}
+
+li[class*="destaque"]::after{
+    content:"conteúdo..."
+}
+
+#contatos{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+    flex-direction: center;
+}
+
+#contatos tr:nth-child(even){
+    border:1px solid rgba(119, 68, 119, 0.842);
+}
+
+#contatos tr:nth-child(odd){
+    border:1px solid rgb(163, 94, 163);
+}
+
+#contatos td:hover{
+    cursor: pointer;
+    background-color: rgb(245, 66, 245);
+    color:white;
+}
+
+#contatos th{
+    background-color: rgba(255, 0, 255, 0.767);
+    color:whitesmoke;
+    text-align: left;
+    padding: 10px;
+}
+#contatos td{
+    background-color: rgba(216, 112, 148, 0.699);
+    color: whitesmoke;
+    text-align: left;
+    padding: 10px;
+}
